@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,500;1,900&display=swap');
+
+@font-face {
+	font-family: 'Boyna';
+	src: url(../fonts/Boyna.otf);
+  }
+
+* {
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+
+body {
+  background: white;
+  font-family: 'Roboto';
+
+}
+
+.kilig img {
+	width: 200px;
+  }
+  
+  .kilig {
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 1em;
+  }
+
+
+  
+  .fotos img {
+	width:  400px;
+    height: 400px;
+    object-fit: cover;
+	border-radius: 20px;
+  }
+
+  .fotos {
+	padding-top: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	gap: 1em;
+	border-radius: 20px;
+  }
+  
+  .container {
+	/* position: fixed; */
+	/* bottom: 0; */
+	color: #f1f1f1;
+  
+  }
+  
+  .video-container{
+	position: fixed;
+	/* right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100vw; */
+	height: 120vh;
+	z-index: -1;
+  }
+  
+.ay {
+	display: flex;
+  }
+
+.ay p {
+	font-size: 2.0em;
+	font-weight: 600;
+	font-family: 'Boyna';
+	text-shadow: 1px 1px 5px #000;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+}
+
+  audio {
+	display: none;
+  }
+
+.ays {
+	justify-content: center;
+	text-align: center;
+}
+
+.ays b {
+	color: rgb(121, 0, 190);
+	font-weight: 600;
+	letter-spacing: -4px;
+}
+
+#btn1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    border: 2px solid black;
+    transition: all 0.5s ease;
+    background-color: #cacaca;
+    background: #cacaca;
+    box-shadow: 0 0 10px #f32121, 0 0 40px #f32121, 0 0 80px #f32121;
+	border-radius: 20px;
+	animation: zoomin 1.5s infinite alternate-reverse;
+}
+  #btn1:hover {
+    background: rgb(113, 248, 131);
+    border: 2px solid black;
+  }
+
+  @keyframes zoomin {
+	0% {
+	 transform: scale(1);
+
+	}
+   
+	100% {
+	 transform: scale(1.1);
+	}
+   }
+
+
+
+  
+  /* @media (max-width: 1920px) {
+	.kilig {
+		padding-top: 50px;
+	}
+	.kilig img {
+		width: 300px;
+		margin-bottom: 20px;
+	}
+	.ay {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+	.ays {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+	#btn1 {
+		font-size : 20px;
+		width: 400px;
+	}
+  }
+
+  @media (min-width: 374px) {
+	.kilig {
+		padding-top: 320px;
+	}
+	.kilig img {
+		width: 300px;
+		margin-bottom: 80px;
+	}
+	.ay {
+		font-size: 30px;
+		padding-bottom: 50px;
+	}
+	.ays {
+		font-size: 30px;
+		padding-bottom: 220px;
+	}
+	#btn1 {
+		font-size : 30px;
+		width: 400px;
+	}
+  } */
